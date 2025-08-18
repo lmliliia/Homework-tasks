@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Sections</title>
+    <style>
+        html {
+            scroll-behavior: smooth; /* плавний перехід */
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        section {
+            height: 100vh; /* секція займає весь екран */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #section1 {
+            background: #be5f3d;
+        }
+
+        #section2 {
+            background: #25cbcb;
+        }
+
+        #section3 {
+            background-color: #54bb54;
+        }
+
+        h2 {
+            margin: 20px 0;
+        }
+
+        p {
+            max-width: 700px;
+            margin: 0 auto 20px;
+            line-height: 1.5;
+        }
+
+        .arrow {
+            font-size: 32px;
+            text-decoration: none;
+            color: black;
+            margin: 15px 0;
+            transition: transform 0.3s;
+        }
+
+        .arrow:hover {
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Секція 1 -->
+<section id="section1">
+    <h2>Section Title 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur iusto laudantium, magnam natus nisi, odio officiis,
+        perferendis possimus quas quis rem saepe ullam vel voluptatem.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad blanditiis eligendi, ex exercitationem hic
+        incidunt inventore magnam magni mollitia obcaecati possimus rem repellendus veniam?</p>
+    <a href="#section2" class="arrow">↓</a>
+</section>
+
+<!-- Секція 2 -->
+<section id="section2">
+    <a href="#section1" class="arrow">↑</a>
+    <h2>Section Title 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deserunt non, pariatur possimus recusandae reiciendis
+        tempore! Aliquam commodi dicta esse id odit possimus quam soluta.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deserunt non, pariatur possimus recusandae reiciendis
+        tempore! Aliquam commodi dicta esse id odit possimus quam soluta.</p>
+    <a href="#section3" class="arrow">↓</a>
+</section>
+
+<!-- Секція 3 -->
+<section id="section3">
+    <a href="#section2" class="arrow">↑</a>
+    <h2>Section Title 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deserunt non, pariatur possimus recusandae reiciendis
+        tempore! Aliquam commodi dicta esse id odit possimus quam soluta.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deserunt non, pariatur possimus recusandae reiciendis
+        tempore! Aliquam commodi dicta esse id odit possimus quam soluta.</p>
+</section>
+</body>
+</html>
+
+
