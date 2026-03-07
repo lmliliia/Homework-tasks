@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.preloader {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loading-text {
+    font-size: 2.5rem;
+    letter-spacing: 8px;
+    animation: flicker 1.5s infinite;
+}
+
+@keyframes flicker {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+}
+
+.r2d2 {
+    position: absolute;
+    top: -70px;
+    width: 60px;
+    height: 60px;
+    background: url("https://upload.wikimedia.org/wikipedia/en/3/39/R2-D2_Droid.png") no-repeat center/contain;
+    animation: roll 5s linear infinite;
+}
+
+@keyframes roll {
+    0% {
+        transform: translateX(-200px) rotate(0deg);
+    }
+    50% {
+        transform: translateX(200px) rotate(180deg);
+    }
+    100% {
+        transform: translateX(-200px) rotate(360deg);
+    }
+}

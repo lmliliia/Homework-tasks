@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position relative + absolute</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+            height: 100vh;
+        }
+
+        .card {
+            width: 200px;
+            height: 250px;
+            background-color: lavender;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .sale {
+            width: 70px;
+            height: 45px;
+            background-color: lavender;
+            position: absolute;
+            top: -20px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .sale-bottom {
+            width: 70px;
+            height: 45px;
+            background-color: lavender;
+            position: absolute;
+            bottom: -20px;
+            border-radius: 0 0 20px 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <div class="sale"></div>
+    <p>Lorem ipsum.</p>
+    <p>Cumque, eveniet.</p>
+    <p>Consequatur, quam.</p>
+    <div class="sale-bottom"></div>
+</div>
+
+<div class="card">
+    <div class="sale"></div>
+    <p>Lorem ipsum.</p>
+    <p>Cumque, eveniet.</p>
+    <p>Consequatur, quam.</p>
+    <div class="sale-bottom"></div>
+</div>
+
+<div class="card">
+    <div class="sale"></div>
+    <p>Lorem ipsum.</p>
+    <p>Cumque, eveniet.</p>
+    <p>Consequatur, quam.</p>
+    <div class="sale-bottom"></div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Focus placeholder</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        form sup {
+            color: red;
+        }
+
+        .form-registration {
+            border: 3px solid lightseagreen;
+            width: 70%;
+            border-radius: 20px;
+            padding: 50px;
+        }
+
+        input[type="text"] {
+            background-color: lightcyan;
+            border: 3px solid lightseagreen;
+            border-radius: 5px;
+            color: cornflowerblue;
+            font-family: 'Indie Flower', cursive;
+        }
+
+        input[type="text"]::placeholder {
+            font-family: 'Indie Flower', cursive;
+        }
+
+        input[type="text"]:focus {
+            outline: 3px solid purple;
+        }
+    </style>
+</head>
+<body>
+<form class="form-registration">
+    <label for="name"> Введіть своє імʼя </label>
+    <input type="text" name="name" id="name" placeholder="Name" required> <sup>*</sup>
+
+    <label for="email"> Введіть свій email </label>
+    <input type="email" name="email" id="email" placeholder="example@gmail.com" required> <sup>*</sup>
+
+    <label for="name"> Введіть своє імʼя </label>
+    <input type="password" name="password" id="password" placeholder="L5784858!" required> <sup>*</sup>
+
+    <label for="age"> Введіть свій вік </label>
+    <input type="number" name="age" id="age" min="18" max="100">
+
+    <input type="file" name="file" id="file">
+
+    <label> Стать </label>
+    <label><input type="radio" name="gender" value="male"> Чоловіча </label>
+    <label><input type="radio" name="gender" value="female"> Жіноча </label>
+
+    <label><input type="checkbox" name="newsletter"> Підписатися на новини </label>
+
+    <label for="lorem"> Країна </label>
+    <select id="lorem">
+        <option value=" "> Оберіть країну</option>
+        <option value="ua"> Україна</option>
+        <option value="us"> США</option>
+        <option value="uk"> Великобританія</option>
+        <option value="fr"> Франція</option>
+    </select>
+
+    <label for="comment"></label>
+    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+    <div>
+        <input type="submit" value="Надіслати">
+        <input type="reset" value="Відмінити">
+    </div>
+</form>
+
+</body>
+</html>

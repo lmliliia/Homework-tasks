@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favicon</title>
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg"/>
+    <link rel="shortcut icon" href="favicon/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png"/>
+    <style>
+        .pink-box {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 100px auto 0 auto;
+            animation: lorem 5s infinite alternate;
+        }
+
+        @keyframes lorem {
+            from {
+                transform: scale(1.5) rotate(60deg);
+            }
+            40% {
+                border-radius: 20%;
+                transform: rotate(-60deg);
+            }
+            to {
+                transform: scale(1) rotate(0deg);
+                background-color: yellow;
+            }
+        }
+    </style>
+<body>
+<div class="pink-box"></div>
+</body>
+</html>

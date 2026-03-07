@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.w-1070 {
+    width: 1070px;
+    margin: 0 auto;
+}
+
+/*--------------------------header------------------------------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-family: "DM Sans", sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+header nav a {
+    color: #696871;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.469px;
+}
+
+.header__active-link {
+    color: #19191B;
+    border-bottom: 2px solid #5454D4;
+}
+
+.header__button {
+    width: 211.02px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FF7143;
+    border: none;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+
+/*--------------------------------hero--------------------------------------*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 68px;
+}
+
+.hero div h1 {
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px; /* 102.667% */
+    letter-spacing: -2.501px;
+}
+
+.hero div p {
+    color: #696871;
+    font-family: Mulish, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    margin: 30px 0 50px 0;
+    width: 409.426px;
+}
+
+.hero button {
+    width: 188.211px;
+    height: 60px;
+    border-radius: 10px;
+    background: #5454D4;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    border: none;
+}
+
+/*-------------------------------brands-----------------------*/
+.brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 212px 0 160px 0;
+}
+
+/*------------------------------subscription--------------------------*/
+.subscription-index {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscription-index h2 {
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; /* 114% */
+    letter-spacing: -1.563px;
+}
+
+.subscription-index p {
+    color: #696871;
+    font-family: Mulish, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    width: 459px;
+    margin: 30px 0;
+}
+
+.subscription-index a {
+    color: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+}
+
+/*------------------------in-depth metrics------------------*/
+.in-depth-metrics {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 86px;
+}
+
+.in-depth-metrics h2 {
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; /* 114% */
+    letter-spacing: -1.563px;
+}
+
+.in-depth-metrics p {
+    color: #696871;
+    font-family: Mulish, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    width: 409px;
+    margin: 30px 0;
+}
+
+.in-depth-metrics a {
+    color: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------*/
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 80px 0;
+    text-align: center;
+}
+
+.feature img {
+    max-width: 60px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Pricing Section */
+.pricing {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.pricing h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Toggle */
+.toggle {
+    display: inline-flex;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-bottom: 50px;
+}
+
+.toggle span {
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+.toggle .yearly {
+    color: #5454D4;
+}
+
+.toggle .monthly {
+    color: #FF7143;
+}
+
+/* Plans */
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.plan {
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px 20px;
+    width: 280px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.plan h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.plan .price {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.plan .price span {
+    font-size: 16px;
+    color: #888;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.plan .btn {
+    background: transparent;
+    border: 1px solid #5454D4;
+    color: #5454D4;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.plan--highlighted {
+    background: #FF7143;
+    color: #fff;
+}
+
+.plan--highlighted .btn-dark {
+    background: #2D2D2D;
+    border: none;
+    color: #fff;
+}

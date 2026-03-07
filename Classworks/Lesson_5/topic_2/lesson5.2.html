@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation</title>
+    <style>
+        .pink-box {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 100px auto 0 auto;
+            animation: lorem 5s infinite alternate;
+        }
+
+        @keyframes lorem {
+            from {
+                transform: scale(1.5) rotate(60deg);
+            }
+            40% {
+                border-radius: 20%;
+                transform: rotate(-60deg);
+            }
+            to {
+                transform: scale(1) rotate(0deg);
+                background-color: yellow;
+            }
+        }
+    </style>
+<body>
+<div class="pink-box"></div>
+</body>
+</html>

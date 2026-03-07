@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login Form</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .container {
+            width: 350px;
+            border: 1px solid #dbdbdb;
+            background: #fff;
+            padding: 40px 40px 20px;
+            text-align: center;
+            border-radius: 1px;
+        }
+
+        .container img {
+            width: 175px;
+            margin-bottom: 20px;
+        }
+
+        .input {
+            width: 100%;
+            margin-bottom: 8px;
+        }
+
+        .input input {
+            width: 100%;
+            padding: 9px 8px;
+            background: #fafafa;
+            border: 1px solid #dbdbdb;
+            border-radius: 3px;
+            font-size: 12px;
+            outline: none;
+        }
+
+        .input input:focus {
+            border-color: #a8a8a8;
+        }
+
+        .btn-login {
+            width: 100%;
+            margin-top: 10px;
+            padding: 7px;
+            background: #0095f6;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .btn-login:hover {
+            background: #0081d6;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            color: #8e8e8e;
+            font-size: 13px;
+            font-weight: 600;
+            margin: 20px 0;
+        }
+
+        .divider::before,
+        .divider::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: #dbdbdb;
+        }
+
+        .divider span {
+            margin: 0 15px;
+        }
+
+        .facebook-login {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 600;
+            color: #385185;
+            cursor: pointer;
+            margin-bottom: 20px;
+            text-decoration: none;
+        }
+
+        .facebook-login:hover {
+            color: #1877f2;
+        }
+
+        .facebook-login img {
+            width: 16px;
+            margin-right: 8px;
+            margin-bottom: 0;
+        }
+
+        .forgot {
+            font-size: 12px;
+            color: #00376b;
+            cursor: pointer;
+        }
+
+        .forgot:hover {
+            color: #1877f2;
+        }
+
+        .signup-box {
+            width: 350px;
+            margin-top: 10px;
+            padding: 20px;
+            border: 1px solid #dbdbdb;
+            text-align: center;
+            background: #fff;
+            font-size: 14px;
+            border-radius: 1px;
+        }
+
+        .signup-box a {
+            color: #0095f6;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .signup-box a:hover {
+            color: #0081d6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/330px-Instagram_logo.svg.png"
+             alt="Instagram">
+
+        <form>
+            <div class="input">
+                <label>
+                    <input type="text" placeholder="Номер телефону, ім'я користувача або email" required>
+                </label>
+            </div>
+            <div class="input">
+                <label>
+                    <input type="password" placeholder="Пароль" required>
+                </label>
+            </div>
+
+            <button type="submit" class="btn-login">Увійти</button>
+        </form>
+
+        <div class="divider"><span>АБО</span></div>
+
+        <a href="#" class="facebook-login">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg" alt="Facebook">
+            Увійти через Facebook
+        </a>
+
+        <a href="#" class="forgot">Забули пароль?</a>
+    </div>
+
+    <div class="signup-box">
+        Не маєте облікового запису? <a href="#">Зареєструйтеся</a>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+}
+
+.form-registration {
+    width: 45vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form-registration div:nth-child(1) {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 139, 139, 0.15);
+}
+
+.form-registration div:nth-child(1) h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.form-registration form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    height: 30px;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 15px;
+}
+
+.form-registration > form > div {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+form input[type="submit"] {
+    background-color: rgba(0, 139, 139, 0.15);
+    border-radius: 7px;
+    border: 1px solid gray;
+    width: 70px;
+    height: 24px;
+
+
+}
+

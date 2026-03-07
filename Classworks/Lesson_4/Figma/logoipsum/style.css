@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.w-1070 {
+    width: 1070px;
+    margin: 0 auto;
+}
+
+/*--------------------------header------------------------------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-family: "DM Sans", sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+header nav a {
+    color: #696871;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.469px;
+}
+
+.header__active-link {
+    color: #19191B;
+    border-bottom: 2px solid #5454D4;
+}
+
+.header__button {
+    width: 211.02px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FF7143;
+    border: none;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+
+/*--------------------------------hero--------------------------------------*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 68px;
+}
+
+.hero div h1 {
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px; /* 102.667% */
+    letter-spacing: -2.501px;
+}
+
+.hero div p {
+    color: #696871;
+    font-family: Mulish, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    margin: 30px 0 50px 0;
+    width: 409.426px;
+}
+
+.hero button {
+    width: 188.211px;
+    height: 60px;
+    border-radius: 10px;
+    background: #5454D4;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    border: none;
+}
+
+/*-------------------------------brands-----------------------*/
+.brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 212px 0 160px 0;
+}
+
+/*------------------------------subscription--------------------------*/
+.subscription-index {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscription-index h2 {
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; /* 114% */
+    letter-spacing: -1.563px;
+}
+
+.subscription-index p {
+    color: #696871;
+    font-family: Mulish, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    width: 459px;
+    margin: 30px 0;
+}
+
+.subscription-index a {
+    color: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+}
+
+/*------------------------in-depth metrics------------------*/
+.in-depth-metrics {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 86px;
+}
+
+.in-depth-metrics h2 {
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; /* 114% */
+    letter-spacing: -1.563px;
+}
+
+.in-depth-metrics p {
+    color: #696871;
+    font-family: Mulish, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    width: 409px;
+    margin: 30px 0;
+}
+
+.in-depth-metrics a {
+    color: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    text-decoration: none;
+}
+
+/*----------------------icons------------------------------*/
+.audits {
+    padding: 120px 0;
+    background: #FFF;
+}
+
+.audits__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.audit-card-benchmark img {
+    width: 114px;
+    height: 64px;
+}
+
+.audit-card-benchmark h3 {
+    color: #19191B;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.75px;
+}
+
+.audit-card-benchmark p {
+    width: 307px;
+    color: #696871;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.5px;
+}
+
+.audit-card-pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.audit-card-pricing img {
+    width: 91px;
+    height: 72px;
+}
+
+.audit-card-pricing h3 {
+    color: #19191B;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.75px;
+}
+
+.audit-card-pricing p {
+    width: 307px;
+    color: #696871;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.5px;
+}
+
+.audit-card-retention {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.audit-card-retention img {
+    width: 118px;
+    height: 63px;
+}
+
+.audit-card-retention h3 {
+    color: #19191B;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.75px;
+}
+
+.audit-card-retention p {
+    width: 307px;
+    color: #696871;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.5px;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 120px 0 100px;
+    background: #FFF;
+}
+
+.pricing__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.pricing__title {
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 62px;
+    letter-spacing: -1.2px;
+    max-width: 540px;
+}
+
+/* Toggle */
+.billing-toggle {
+    display: flex;
+    background: #F5F5F7;
+    border: 1px solid #EAEAED;
+    border-radius: 14px;
+    padding: 6px;
+}
+
+.billing-toggle__btn {
+    min-width: 128px;
+    height: 44px;
+    border: 0;
+    border-radius: 10px;
+    font: 600 15px "DM Sans", sans-serif;
+    color: #19191B;
+    background: transparent;
+    cursor: pointer;
+}
+
+.billing-toggle__btn.is-active {
+    background: #5454D4;
+    color: #FFF;
+}
+
+/*------------------------------- Pricing cards----------------------- */
+.pricing__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.plan-card {
+    background: #F8F8FB;
+    border: 1px solid #EEEEF2;
+    border-radius: 10px;
+    padding: 46px 32px;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .04);
+}
+
+.plan-card__name {
+    font: 700 18px "DM Sans", sans-serif;
+    color: #696871;
+    margin-bottom: 18px;
+}
+
+.plan-card__price {
+    font: 700 22px "DM Sans", sans-serif;
+    color: #19191B;
+    margin-bottom: 22px;
+}
+
+.plan-card__price span {
+    font-size: 48px;
+    letter-spacing: -1px;
+}
+
+.plan-card__price--free {
+    font-size: 48px;
+    letter-spacing: -1px;
+}
+
+.plan-card__list {
+    font: 400 16px/28px Mulish, sans-serif;
+    color: #696871;
+    list-style: none;
+    margin: 0 0 26px;
+    padding: 0;
+}
+
+.plan-card--featured {
+    background: #FF7143;
+    color: #FFF;
+    transform: translateY(-14px);
+}
+
+.plan-card--featured .plan-card__name,
+.plan-card--featured .plan-card__price,
+.plan-card--featured .plan-card__list {
+    color: #FFF;
+}
+
+/*-------------------Buttons---------------------- */
+.btn {
+    width: 211px;
+    height: 60px;
+    border-radius: 10px;
+    font: 700 17px "DM Sans", sans-serif;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-outline {
+    background: #FFF;
+    color: #5454D4;
+    border: 2px solid #5454D4;
+}
+
+.btn-outline:hover {
+    background: #5454D4;
+    color: #FFF;
+}
+
+.btn-dark {
+    background: #19191B;
+    color: #FFF;
+}
+
+.btn-dark:hover {
+    filter: brightness(1.05);
+}

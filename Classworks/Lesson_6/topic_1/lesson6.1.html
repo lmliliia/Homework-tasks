@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Вага селекторів</title>
+    <style>
+        /*
+        1000б - iline
+        100б - id
+        10б - class
+        1б - p, h1-h6
+         */
+        body p.lorem {
+            color: crimson;
+        }
+
+        p.text {
+            color: blue;
+        }
+
+        p {
+            color: coral;
+        }
+
+        section p.lorem {
+            color: green;
+        }
+
+        section div.box p.text {
+            color: deeppink;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div class="box">
+        <p class="text lorem pink">Lorem ipsum dolor sit amet, consectetur.</p>
+    </div>
+</section>
+</body>
+</html>

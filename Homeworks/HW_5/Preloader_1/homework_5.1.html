@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preloader</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border-top: 30px solid yellow;
+            border-right: 30px solid lime;
+            border-bottom: 30px solid lightcoral;
+            border-left: 30px solid turquoise;
+            animation: preloader 5s linear infinite;
+        }
+
+        @keyframes preloader {
+            0% {
+                transform: rotate(360deg);
+            }
+            100% {
+                transform: rotate(-360deg) scale(1.5);
+            }
+        }
+    </style>
+
+</head>
+<body>
+<div class="circle"></div>
+
+</body>
+</html>
